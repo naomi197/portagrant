@@ -1,0 +1,7 @@
+{
+  "name": "portagrant-scripts",
+  "private": true,
+  "type": "module",
+  "scripts": { "deploy": "node deploy.mjs", "inspect": "node inspect.mjs" },
+  "dependencies": { "@polkadot/api": "^15.4.1", "@polkadot/api-contract": "^15.4.1", "@polkadot/keyring": "^13.5.1", "dotenv": "^16.4.7" }
+}

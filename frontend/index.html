@@ -1,0 +1,46 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PortaGrant milestone escrow for the Portaldot ecosystem">
+  <title>PortaGrant · Portaldot grants</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <nav aria-label="Primary navigation">
+      <strong>◈ PortaGrant</strong>
+      <span>Portaldot ecosystem grants</span>
+      <span class="network" id="network">DEMO MODE</span>
+      <button id="connect" type="button">Check wallet</button>
+    </nav>
+
+    <section class="hero">
+      <div>
+        <p class="eyebrow">MILESTONE ESCROW · PORTALDOT V3</p>
+        <h1>Fund builders.<br><em>Unlock progress.</em></h1>
+        <p>Transparent grants with evidence-based releases, secured by a WASM smart contract.</p>
+        <button class="primary" id="demo" type="button">Load demo grant</button>
+        <p class="status" id="status" role="status">Showing an illustrative grant. No transaction has been submitted.</p>
+      </div>
+      <div class="orb" aria-label="Two milestones funded"><span>2</span><small>milestones funded</small></div>
+    </section>
+
+    <section class="panel" aria-labelledby="grant-title">
+      <div class="panel-head">
+        <div><p class="eyebrow">ACTIVE GRANT #0007</p><h2 id="grant-title">Portaldot Developer Tooling</h2></div>
+        <span class="badge" id="grant-status">ACTIVE</span>
+      </div>
+      <div class="meta">
+        <span>Builder <b>5F...a31C</b></span>
+        <span>Escrow <b>1,200 POT</b></span>
+        <span>Network <b>Portaldot testnet</b></span>
+      </div>
+      <div id="milestones" class="milestones" aria-live="polite"></div>
+    </section>
+    <footer>Open source · Verifiable on-chain · Built for Portaldot Hacker House 2026</footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
